@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 575px;
+    height: 385px;
+
+background: #1B244A;
+}
+#team_name_box{
+    position: absolute;
+    width: 149px;
+    height: 36px;
+}
+
+h3 {
+    
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #EEEEEE;
+    top: 500px;
+
+}
+
+/* #home {
+    
+    
+}
+
+#guest {
+    
+} */
+
+
+.score_background {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    
+    background: #080001;
+    border-radius: 5px;
+    border: 2px solid rgb(40, 160, 160);
+}
+
+.score {
+
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+
+/* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+    margin-top: 20px;
+        
+}
+
+/* #guest_score {
+    left: 85px;
+    
+} */
+
+.buttons_space {
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    
+    top: 271px;
+    display: flex;
+    
+
+}
+
+.button_box {
+    box-sizing: border-box;
+
+/* position: absolute; */
+width: 45px;
+height: 45px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+
+}
+
+
+button {
+
+    width: 45px;
+    height: 45px;
+    background-color: rgba(28,28,28,0);
+    
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+    border: 0px;
+    color: #9AABD8;
+}
