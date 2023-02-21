@@ -21,7 +21,7 @@ width      - 150px
 background - goldenrod
  */
  
- #button_start {
+ #button_start, #button_new_card {
      background-color :  goldenrod;
      color:  #016f32;
      width: 150px;
@@ -30,5 +30,7 @@ background - goldenrod
     font-weight: bold;
     border: none;
     border-radius: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 
 }
